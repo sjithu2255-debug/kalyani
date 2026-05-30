@@ -10,6 +10,11 @@ import seatingImg from './assets/real_seating.jpg';
 import ceremony1Img from './assets/real_ceremony_1.jpg';
 import ceremony2Img from './assets/real_ceremony_2.jpg';
 import musicImg from './assets/real_music.jpg';
+import seatingRedImg from './assets/real_seating_red.jpg';
+import groupStageImg from './assets/real_group_stage.jpg';
+import ceremony3Img from './assets/real_ceremony_3.jpg';
+import entranceNightImg from './assets/real_entrance_night.jpg';
+import photoStageImg from './assets/real_photo_stage.jpg';
 
 function App() {
   const testimonials = [
@@ -135,6 +140,36 @@ function App() {
               <img src={musicImg} alt="Outdoor Music Setup" />
               <div className="gallery-overlay">
                 <h4>Evening Entertainment Setup</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '2.0s' }}>
+              <img src={seatingRedImg} alt="Auditorium Seating" />
+              <div className="gallery-overlay">
+                <h4>Auditorium Seating</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '2.2s' }}>
+              <img src={groupStageImg} alt="Group on Stage" />
+              <div className="gallery-overlay">
+                <h4>Spacious Stages</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '2.4s' }}>
+              <img src={ceremony3Img} alt="Wedding Ceremony" />
+              <div className="gallery-overlay">
+                <h4>Wedding Ceremonies</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '2.6s' }}>
+              <img src={entranceNightImg} alt="Entrance at Night" />
+              <div className="gallery-overlay">
+                <h4>Welcoming Entrance</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '2.8s' }}>
+              <img src={photoStageImg} alt="Photo Stage Setup" />
+              <div className="gallery-overlay">
+                <h4>Photography Setups</h4>
               </div>
             </div>
           </div>
