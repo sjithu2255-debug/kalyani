@@ -5,6 +5,11 @@ import stageImg from './assets/real_stage.jpg';
 import hallImg from './assets/real_outdoor_wedding.jpg';
 import diningImg from './assets/real_dining.jpg';
 import dressingImg from './assets/real_dressing.png';
+import sadhyaImg from './assets/real_sadhya.jpg';
+import seatingImg from './assets/real_seating.jpg';
+import ceremony1Img from './assets/real_ceremony_1.jpg';
+import ceremony2Img from './assets/real_ceremony_2.jpg';
+import musicImg from './assets/real_music.jpg';
 
 function App() {
   const testimonials = [
@@ -100,6 +105,36 @@ function App() {
               <img src={dressingImg} alt="Dressing Room" />
               <div className="gallery-overlay">
                 <h4>Premium Dressing Rooms</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '1.0s' }}>
+              <img src={sadhyaImg} alt="Sadhya Dining Setup" />
+              <div className="gallery-overlay">
+                <h4>Traditional Sadhya Setup</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '1.2s' }}>
+              <img src={seatingImg} alt="Event Seating" />
+              <div className="gallery-overlay">
+                <h4>Elegant Guest Seating</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '1.4s' }}>
+              <img src={ceremony1Img} alt="Wedding Ceremony" />
+              <div className="gallery-overlay">
+                <h4>Beautiful Ceremonies</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '1.6s' }}>
+              <img src={ceremony2Img} alt="Traditional Rituals" />
+              <div className="gallery-overlay">
+                <h4>Traditional Rituals</h4>
+              </div>
+            </div>
+            <div className="gallery-item animate-fade-in-up" style={{ animationDelay: '1.8s' }}>
+              <img src={musicImg} alt="Outdoor Music Setup" />
+              <div className="gallery-overlay">
+                <h4>Evening Entertainment Setup</h4>
               </div>
             </div>
           </div>
